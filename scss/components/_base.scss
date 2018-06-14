@@ -1,5 +1,9 @@
 @import "../helpers/all";
 
+* {
+  box-sizing: border-box;
+}
+
 html, body{
   background-color: $bgGray;
   color: $textGray;
@@ -8,12 +12,21 @@ html, body{
 
 body{
   margin: 0px;
-  padding: 30px;
+  padding: 50px;
 }
 
 h1{
+  color: $textWhite;
   margin-top: 0px;
-  margin-bottom: 15px;
-  font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 40px;
   font-weight: 600;
+}
+
+h2{
+  color: $textWhite;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
 }

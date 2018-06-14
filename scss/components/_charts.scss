@@ -1,1 +1,17 @@
 @import "../helpers/all";
+
+section{
+  margin-bottom: 50px;
+  .square-chart-container{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+  }
+
+  .stack-chart-container{
+    width: calc(100% - 320px);
+    margin-left: 10px;
+    height: 300px;
+    display: inline-block;
+  }
+}
